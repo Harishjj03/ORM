@@ -5,8 +5,8 @@
 To develop a Django application to store and retrieve data from Car Inventory Database using Object Relational Mapping(ORM).
 ## Entity Relationship Diagram
 Include your ER diagram here
-![alt text](<Screenshot 2025-09-18 212307.png>)
 
+![alt text](<Screenshot 2025-09-19 090257-1.png>)
 
 
 
@@ -50,38 +50,12 @@ class MOVIES(models.Model):
 class MOVIESAdmin(admin.ModelAdmin):
     list_display = ('MOVIE_id','MOVIE_name','MOVIE_AMOUNT','MOVIE_SCREEN','MOVIE_DATE')
     ```
-
-# Register your models here.
-admin.site.register(Employee, EmployeeAdmin)
-
-models.py
-from django.db import models
-from django.contrib import admin
-
-# Create your models here.
-class Employee(models.Model):
-    emp_id = models.IntegerField(primary_key=True)
-    name = models.CharField(max_length=50)
-    desig = models.CharField(max_length=50)
-    salary = models.IntegerField()
-    doj = models.DateField()
-
-class EmployeeAdmin(admin.ModelAdmin):
-    list_display = ('emp_id','name','desig','salary','doj')
-
-
-
-
-
 '''
-
-
-
 
 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-09-18 184610.png>)
+![alt text](<Screenshot 2025-09-19 085308-1.png>)
 
 
 ## RESULT
