@@ -6,8 +6,7 @@ To develop a Django application to store and retrieve data from Car Inventory Da
 ## Entity Relationship Diagram
 Include your ER diagram here
 
-![alt text](<Screenshot 2025-09-19 090257-1.png>)
-
+<img width="1149" height="709" alt="Screenshot 2025-09-19 090257" src="https://github.com/user-attachments/assets/5219f99d-4c8d-4e8b-af15-a82a2cfd052e" />
 
 
 ## DESIGN STEPS
@@ -55,7 +54,8 @@ class MOVIESAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-09-19 085308-1.png>)
+<img width="1894" height="1046" alt="Screenshot 2025-09-19 085308" src="https://github.com/user-attachments/assets/614908cf-a4ed-4973-b0d4-091b1b83470e" />
+
 
 
 ## RESULT
